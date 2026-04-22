@@ -1,71 +1,238 @@
-<!DOCTYPE html>
-<html lang="pt-br" class="">
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calebe Medeiros | Bio-Link Oficial</title>
+    <meta
+      name="description"
+      content="Visao, agenda, artigos e contato direto de Calebe Medeiros em um bio-link politico com foco no Distrito Federal." />
+    <meta name="theme-color" content="#e8f1fa" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Calebe Medeiros | Bio-Link Oficial" />
+    <meta
+      property="og:description"
+      content="Acesse a visao publica, os canais oficiais e as frentes de trabalho de Calebe Medeiros para o Distrito Federal." />
+    <meta property="og:image" content="./assets/social-preview.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:title"
+      content="Calebe Medeiros | Bio-Link Oficial" />
+    <meta
+      property="twitter:description"
+      content="Agenda, artigos, projetos e contato direto de Calebe Medeiros em um unico link." />
+    <meta property="twitter:image" content="./assets/social-preview.png" />
+    <link rel="icon" href="./assets/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Source+Sans+3:wght@400;600;700;800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteudo principal</a>
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CalebeLinks</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-
-    <div id="container">
-
-        <div id="profile">
-            <img src="./assets/avatar.png" alt="Foto de Calebe Medeiros, usando óculos, uma jaqueta jeans, com barba e fundo azul ciano.">
-            <p>@calebemedeirosbsb</p>
+    <main class="page" id="conteudo">
+      <section
+        class="hero reveal"
+        data-section="hero"
+        aria-labelledby="hero-title">
+        <div class="hero__badge-wrap">
+          <span class="hero__badge">Links oficiais</span>
         </div>
 
-        <div id="switch" onclick="toggleMode()">
-            <button></button>
-            <span></span>
+        <figure class="hero__portrait">
+          <img
+            src="./assets/avatar.png"
+            alt="Retrato de Calebe Medeiros."
+            width="144"
+            height="144" />
+        </figure>
+
+        <div class="hero__content">
+          <h1 id="hero-title">Calebe Medeiros</h1>
+          <p class="hero__meta">
+            Estudante de Eng. de Software | Atuação pública com base técnica
+          </p>
+          <p class="hero__lead">
+            Saúde, inovação e oportunidades para um DF mais eficiente e mais
+            próximo das pessoas.
+          </p>
+          <p class="hero__body">
+            Um unico link para acompanhar visao, agenda, artigos, projetos e
+            contato direto.
+          </p>
         </div>
 
-        <ul>
-            <li>
-                <a href="https://c.org/BMbFLHwLhF" target="_blank">Escoamento Eficiente - Assine</a>
-            </li>
-            <li>
-                <a href="https://calebemedeiros.lovable.app/" target="_blank">Site Pessoal</a>
-            </li>
-            <li>
-                <a href="https://open.substack.com/pub/calebemedeiros?utm_source=share&utm_medium=android&r=7wq3qk" target="_blank">Blog Calebe Medeiros</a>
-            </li>
-            <li>
-                <a href="#" target="_blank">Criando...1,2,3!</a>
-            </li>
+        <ul class="priority-list" aria-label="Prioridades publicas">
+          <li>Saude com gestao</li>
+          <li>Inovacao no servico publico</li>
+          <li>Juventude e oportunidades</li>
         </ul>
+      </section>
 
-        <div id="social-links">
-            <a href="https://github.com/calebemedeiros" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
-            </a>
-            <a href="https://www.instagram.com/calebemedeirosbsb/" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-            <a href="https://www.youtube.com/channel/UC3PGWIjKy_O4me3LEyMKBwg" target="_blank">
-                <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-            <a href="https://www.linkedin.com/in/calebemedeiros/" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
+      <section
+        class="linktree reveal"
+        data-section="links"
+        aria-labelledby="links-title">
+        <div class="section-heading">
+          <p class="section-heading__eyebrow">Link da bio</p>
+          <h2 id="links-title">Canais principais</h2>
+          <p>
+            Os links abaixo foram organizados para descoberta, aprofundamento e
+            contato direto.
+          </p>
         </div>
 
-        <footer>
-            Feito com ♥ pelo <a href="">Calebe</a><br><br>By CalebeInc
-        </footer>
+        <nav aria-label="Links principais">
+          <ul class="link-stack">
+            <li>
+              <a
+                class="link-card link-card--vision"
+                href="https://calebemedeiros.lovable.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-track="visao-df"
+                data-tier="primary"
+                data-cta-position="1">
+                <span class="link-card__label">Visao</span>
+                <strong>Conheca minha visao para o DF</strong>
+                <span
+                  >Posicionamento, trajetória técnica e prioridades para
+                  o Distrito Federal.</span
+                >
+              </a>
+            </li>
+            <li>
+              <a
+                class="link-card"
+                href="https://www.instagram.com/calebemedeirosbsb/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-track="instagram"
+                data-tier="primary"
+                data-cta-position="2">
+                <span class="link-card__label">Instagram</span>
+                <strong>Acompanhe agenda, escuta e posicionamentos</strong>
+                <span
+                  >Atualizacoes frequentes, bastidores e conversas com a
+                  comunidade.</span
+                >
+              </a>
+            </li>
+            <li>
+              <a
+                class="link-card"
+                href="https://www.instagram.com/direct/t/17842802412490204/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-track="instagram-contato"
+                data-tier="primary"
+                data-cta-position="3">
+                <span class="link-card__label">Mensagem direta</span>
+                <strong>Envie uma mensagem pelo Instagram</strong>
+                <span
+                  >Canal direto para contato, convites, articulações e dialogo
+                  institucional.</span
+                >
+              </a>
+            </li>
+            <li>
+              <a
+                class="link-card"
+                href="https://open.substack.com/pub/calebemedeiros?utm_source=share&utm_medium=android&r=7wq3qk"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-track="artigos"
+                data-tier="primary"
+                data-cta-position="4">
+                <span class="link-card__label">Artigos</span>
+                <strong>Leia analises e reflexoes</strong>
+                <span
+                  >Conteudo sobre tecnologia, gestao publica, desenvolvimento e
+                  futuro do DF.</span
+                >
+              </a>
+            </li>
+            <li>
+              <a
+                class="link-card"
+                href="https://c.org/BMbFLHwLhF"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-track="projeto-escoamento"
+                data-tier="primary"
+                data-cta-position="5">
+                <span class="link-card__label">Abaixo assinado</span>
+                <strong
+                  >Assine a peticao por melhorias no escoamento urbano</strong
+                >
+                <span
+                  >Fortaleça a mobilizacao por uma solucao melhor para
+                  Ceilândia.</span
+                >
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
 
-    </div>
+      <section
+        class="supporting reveal"
+        data-section="apoio"
+        aria-labelledby="apoio-title">
+        <div class="supporting__panel">
+          <div class="section-heading">
+            <p class="section-heading__eyebrow">Apresentacao rapida</p>
+            <h2 id="apoio-title">Tecnica, escuta e compromisso</h2>
+          </div>
+          <p class="supporting__text">
+            Este bio-link apresenta os canais oficiais e uma visao publica
+            inspirada em eficiencia, responsabilidade e oportunidades reais.
+          </p>
+        </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="./script.js"></script>
+        <nav class="supporting__links" aria-label="Links secundarios">
+          <a
+            href="https://www.linkedin.com/in/calebemedeiros/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-track="linkedin"
+            data-tier="secondary"
+            data-cta-position="6">
+            <span>LinkedIn</span>
+            <small>Repertorio profissional e conexoes institucionais.</small>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC3PGWIjKy_O4me3LEyMKBwg"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-track="youtube"
+            data-tier="secondary"
+            data-cta-position="7">
+            <span>YouTube</span>
+            <small>Videos, entrevistas e participacoes publicas.</small>
+          </a>
+          <a
+            href="https://github.com/calebemedeiros"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-track="github"
+            data-tier="secondary"
+            data-cta-position="8">
+            <span>GitHub</span>
+            <small>Base tecnica, projetos e consistencia de execucao.</small>
+          </a>
+        </nav>
+      </section>
 
-</body>
+      <footer class="footer reveal" data-section="footer">
+        <p>Calebe Medeiros | Bio-link oficial</p>
+      </footer>
+    </main>
 
+    <script src="./script.js" defer></script>
+  </body>
 </html>
